@@ -19,8 +19,9 @@ The evaluation used is a specialised metric called the Stratified Concordance In
 
 It represents the global assessment of the model discrimination power: this is the models ability to correctly provide a reliable ranking of th esurvival times based on the individual risk scores. 
 
-$$\text{C-index} = \frac{\sum_{i,j}1_{T_j<T_i}\cdot 1_{\eta_j>\eta_i}\cdot \delta_j}{\sum_{i,j}1_{T_j<T_i}\cdot\delta_j}$$
-
+```math
+\text{C-index} = \frac{\sum_{i,j}1_{T_j<T_i}\cdot 1_{\eta_j>\eta_i}\cdot \delta_j}{\sum_{i,j}1_{T_j<T_i}\cdot\delta_j}
+```
 with:
 
 - $\eta_i,$ the risk score of a unit $i$
