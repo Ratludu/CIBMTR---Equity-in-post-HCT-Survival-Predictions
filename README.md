@@ -29,3 +29,7 @@ with:
 
 C-index = 1 corresponds to the best model prediction and 0.5 represents a random prediction.
 
+## Stratified Concordance Index
+
+We adjust the standard C-index to account for racial stratification, thus ensuring that each racial groups outcomes are weighed equally in the model evaluation. The stratified c-index is calculated as teh mean minus the standard deviation of the c-index scores calculated within the recipients race categories, i.e. the score will be better if the mean c-index over the different race categories is large and the standard deviation of the c-indicies of the race category is small.
+
