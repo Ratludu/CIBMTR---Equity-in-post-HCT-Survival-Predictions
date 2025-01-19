@@ -1,5 +1,7 @@
 # CIBMTR - Equity in post HCT Survival Predictions
 
+Current submission gives a CV score of 68 and a LB score of 68.5.
+
 ## Overview
 
 [CIBMTR - Equity in post HCT Survival Predictions](https://www.kaggle.com/competitions/equity-post-HCT-survival-predictions/overview) is aimed at developing models to improve the prediction of transplant survival rates for patients undergoing allogeneic Hematopoietic Cell Transplant (HCT) - an important step in ensuring that every patient has a fair chance at a successful outcome, regardless of their background.
