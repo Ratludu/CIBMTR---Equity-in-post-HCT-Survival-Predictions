@@ -1,6 +1,6 @@
 # CIBMTR - Equity in post HCT Survival Predictions
 
-Current submission gives a CV score of 68 and a LB score of 68.5.
+Current submission gives a CV score of 68 and a LB score of 68.8.
 
 ## Overview
 
